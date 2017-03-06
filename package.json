@@ -1,0 +1,21 @@
+{
+  "name": "vuex-tdd-course",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:vueschool/vuex-tdd-course.git",
+  "author": "Eduardo San Martin Morote <posva13@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "ava"
+  },
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "babel-preset-latest": "^6.22.0"
+  },
+  "ava": {
+    "require": "babel-register"
+  },
+  "babel": {
+    "presets": ["latest"]
+  }
+}

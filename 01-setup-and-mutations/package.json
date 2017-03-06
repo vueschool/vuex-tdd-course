@@ -1,0 +1,15 @@
+{
+  "name": "1-setup-and-mutations",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "ava"
+  },
+  "ava": {
+    "require": "babel-register"
+  },
+  "babel": {
+    "presets": ["latest"]
+  }
+}
